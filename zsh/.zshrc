@@ -28,6 +28,12 @@ alias dkcd="docker-compose down"
 alias dkcr="docker-compose down && docker-compose up --build"
 
 
+# Git
+alias ga="git add"
+alias gc="git commit"
+alias gp="git pull"
+
+# Misc
 alias v="vim"
 alias t="touch"
 alias md="mkdir"
@@ -40,4 +46,4 @@ alias c="clear"
 # Bookmarks
 ###############################################################################
 
-alias @dev="~/dev'
+alias @dev="~/dev"
