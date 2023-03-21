@@ -1,3 +1,15 @@
+" PLUGINS
+call plug#begin()
+    Plug 'preservim/nerdtree'
+call plug#end()
+
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+
+
+
 set nocompatible
 set number                " Show numbers on the left
 set hlsearch              " Highlight search results
@@ -16,3 +28,5 @@ set mouse=a               " Enable mouse on all modes
 set showmatch
 set termguicolors
 set splitright splitbelow
+
+
