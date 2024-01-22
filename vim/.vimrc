@@ -1,6 +1,7 @@
 " PLUGINS
 call plug#begin()
     Plug 'preservim/nerdtree'
+    Plug 'morhetz/gruvbox'
 call plug#end()
 
 nnoremap <leader>n :NERDTreeFocus<CR>
@@ -29,4 +30,6 @@ set showmatch
 set termguicolors
 set splitright splitbelow
 
-
+:set bg=dark
+let g:gruvbox_contrast_dark = 'soft'
+autocmd vimenter * ++nested colorscheme gruvbox
